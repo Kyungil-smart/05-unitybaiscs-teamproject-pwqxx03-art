@@ -100,3 +100,7 @@ InitTestScene*.unity*
 
 # Ignore imported assets
 Assets/Imports/**
+
+## custom
+*.vs*
+*.idea*
