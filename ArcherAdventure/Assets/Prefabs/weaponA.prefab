@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 198372438055914266}
   - component: {fileID: 3935506546774484007}
   - component: {fileID: 7486899363931020656}
+  - component: {fileID: -3813581219342212049}
   m_Layer: 0
   m_Name: weaponA
   m_TagString: Untagged
@@ -158,3 +159,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3813581219342212049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8066555162454184341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3792dc9de75474dbff9eb0317de92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

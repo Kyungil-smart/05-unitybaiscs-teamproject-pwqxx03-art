@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4395359858472341275}
   - component: {fileID: 7918550282630908544}
   - component: {fileID: 6581138932507296539}
+  - component: {fileID: -2291946208690639518}
   m_Layer: 0
   m_Name: weapon B
   m_TagString: Untagged
@@ -158,3 +159,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-2291946208690639518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5621216579934228186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f3792dc9de75474dbff9eb0317de92d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
