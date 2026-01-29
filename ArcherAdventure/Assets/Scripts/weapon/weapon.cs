@@ -6,9 +6,9 @@ public class Weapon : MonoBehaviour
 {
     void OnTriggerEnter2D (Collider2D collision )
     {
-        if (collision.gameObject.CompareTag("WeaponBullet"))
+        if (collision.gameObject.tag =="BorderWeapon")
         {
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }
