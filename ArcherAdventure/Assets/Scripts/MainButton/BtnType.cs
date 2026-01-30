@@ -2,10 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BtnType : MonoBehaviour
+public class BtnType : MonoBehaviour,IPointerEnterHanaler
 {
     public ButtonType currentType;
+    public transform buttonScale;
+    Vector3 defaultScale;
 
+    public void Start()
+    
     public void OnBtnClick()
     {
         switch (currentType)
@@ -18,4 +22,8 @@ public class BtnType : MonoBehaviour
                 break;
         }
     }
-}
+     public void OnPointerEnter(OnPointerEnterData eventData)
+    {
+        buttonScale.localScale =
+    }
+}    
