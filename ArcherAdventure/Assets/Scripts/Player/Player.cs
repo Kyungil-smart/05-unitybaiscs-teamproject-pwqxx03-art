@@ -41,28 +41,30 @@ public class Player : MonoBehaviour
     }
 
     void Fire()
-    {
+    {   
+        
+
         if (Time.time < nextFireTime)
             return;
 
         nextFireTime = Time.time + fireRate;
 
         Vector3 spawnPosition;
-        Quaternion spawnRotation;
+        // Quaternion spawnRotation;
 
         if (launchPoint != null)
         {
             spawnPosition = launchPoint.position;
-            spawnRotation = launchPoint.rotation;
+            // spawnRotation = launchPoint.rotation;
         }
         else
         {
             spawnPosition = transform.position + new Vector3(0, 0.7f, 0);
-            spawnRotation = transform.rotation;
+            // spawnRotation = transform.rotation;
             Debug.LogWarning("LaunchPoint is not assigned in the Inspector! Using default position.");
         }
 
-        GameObject weapon = Instantiate(weaponA, spawnPosition, spawnRotation);
+        GameObject weapon = Instantiate(weaponA, spawnPosition, Quaternion.identity);
 
         Collider2D weaponCollider = weapon.GetComponent<Collider2D>();
         Collider2D playerCollider = GetComponent<Collider2D>();
