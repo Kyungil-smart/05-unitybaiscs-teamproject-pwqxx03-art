@@ -10,20 +10,17 @@ public class BtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public Transform buttonScale;
     Vector3 defaultScale;
 
+    [SerializeField] private GameObject _uiPannel;
+
     void Start()
     {
         if (buttonScale != null)
             defaultScale = buttonScale.localScale;
     }
 
-    public void OnNewGameButtonClick()
+    public void OnPlayButtonClick()
     {
-        SceneManager.LoadScene("Scene Name");
-    }
-
-    public void OnContinueButtonClick()
-    {
-        // continue 버튼 클릭 시 동작 구현
+        _uiPannel.SetActive(false);
     }
 
     public void OnQuitButtonClick()
