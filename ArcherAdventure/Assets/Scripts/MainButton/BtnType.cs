@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class BtnType : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public ButtonType currentType;
 
-    // Update is called once per frame
-    void Update()
+    public void OnBtnClick()
     {
-        
+        switch (currentType)
+        {
+            case ButtonType.New:
+                Debug.Log("새게임");
+                break;
+            case ButtonType.Continue:
+                Debug.Log("이어하기");
+                break;
+        }
     }
 }
