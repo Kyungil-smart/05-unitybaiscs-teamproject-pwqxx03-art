@@ -701,7 +701,7 @@ GameObject:
   - component: {fileID: 1077335109}
   m_Layer: 0
   m_Name: Top
-  m_TagString: WeaponBuller
+  m_TagString: BorderWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -806,7 +806,7 @@ GameObject:
   - component: {fileID: 1169018965}
   m_Layer: 0
   m_Name: Right
-  m_TagString: WeaponBuller
+  m_TagString: BorderWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1003,6 +1003,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1318970775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5621216579934228186, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_Name
+      value: weapon B
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8524591349967814134, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 13b80f1a8ae111e4fb066a3b0791278a, type: 3}
 --- !u!1 &1365226159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1016,7 +1073,7 @@ GameObject:
   - component: {fileID: 1365226161}
   m_Layer: 0
   m_Name: Left
-  m_TagString: WeaponBuller
+  m_TagString: BorderWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1296,6 +1353,63 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1001 &1936263035
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7162788036886216537, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8066555162454184341, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
+      propertyPath: m_Name
+      value: weaponA
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8496a91bdcd066241bf4360aec1d154d, type: 3}
 --- !u!1 &1952777871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,7 +1528,7 @@ GameObject:
   - component: {fileID: 2034316824}
   m_Layer: 0
   m_Name: Bottom
-  m_TagString: WeaponBuller
+  m_TagString: BorderWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1614,3 +1728,5 @@ SceneRoots:
   - {fileID: 974503046}
   - {fileID: 428383117}
   - {fileID: 466895695}
+  - {fileID: 1936263035}
+  - {fileID: 1318970775}
