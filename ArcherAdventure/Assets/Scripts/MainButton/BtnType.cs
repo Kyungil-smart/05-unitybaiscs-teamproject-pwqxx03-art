@@ -11,7 +11,8 @@ public class BtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
     void Start()
     {
-        defaultScale = buttonScale.localScale;
+        if (buttonScale != null)
+            defaultScale = buttonScale.localScale;
     }
 
     public void OnBtnClick()
@@ -24,16 +25,26 @@ public class BtnType : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             case ButtonType.Continue:
                 Debug.Log("이어하기");
                 break;
+            case ButtonType.Quit:
+                OnQuitClick();
+                break;
         }
+    }
+
+    void OnQuitClick()
+    {
+        Application.Quit();  // 게임 완전 종료 (빌드: exe 종료 / 에디터: Unity 종료)
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        buttonScale.localScale = defaultScale * 1.2f;
+        if (buttonScale != null)
+            buttonScale.localScale = defaultScale * 1.2f;
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        buttonScale.localScale = defaultScale;
+        if (buttonScale != null)
+            buttonScale.localScale = defaultScale;
     }
 }    
